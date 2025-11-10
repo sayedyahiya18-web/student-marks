@@ -23,6 +23,6 @@ else:
     grade = 'Fail'
 
 print("\n--- Result ---")
-print("Marks:", marks)
+
 print(f"Average Marks: {average:.2f}")
 print(f"Grade: {grade}")
