@@ -5,10 +5,11 @@ if len(sys.argv) == 5:
     marks3 = sys.argv[2]
     marks4 = sys.argv[3]
     marks5 = sys.argv[4]
-    
+    mark=(marks1+marks2+marks3+marks4+marks5)
     print("User provided marks values:")
-
-average = sum(marks) / 5
+else:
+    marks=[80,75,90,85,100]
+    average = sum(marks) / 5
 
 if average >= 90:
     grade = 'A'
