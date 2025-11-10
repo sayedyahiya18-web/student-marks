@@ -7,9 +7,7 @@ if len(sys.argv) == 5:
     marks5 = sys.argv[4]
     
     print("User provided marks values:")
-else:
-    marks = [80, 75, 90, 85, 70]
-    print("No input given - using default marks:")
+
 average = sum(marks) / 5
 
 if average >= 90:
