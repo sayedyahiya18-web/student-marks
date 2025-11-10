@@ -5,7 +5,7 @@ if len(sys.argv) == 5:
     marks3 = sys.argv[2]
     marks4 = sys.argv[3]
     marks5 = sys.argv[4]
-    mark=(marks1+marks2+marks3+marks4+marks5)
+    average =(marks1+marks2+marks3+marks4+marks5)/5
     print("User provided marks values:")
 else:
     marks=[80,75,90,85,100]
